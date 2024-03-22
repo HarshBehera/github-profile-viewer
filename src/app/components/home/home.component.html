@@ -1,0 +1,30 @@
+<html>
+<body>
+
+  <header>
+    <h1>Github Profile Viewer</h1>
+    <mat-form-field appearance="fill">
+        <mat-label>Search</mat-label>
+        <input matInput placeholder="Enter github username" [(ngModel)]="searchTerm">
+        <button mat-button *ngIf="searchTerm" matSuffix mat-icon-button aria-label="Clear" (click)="Search()">
+          <mat-icon>search </mat-icon>
+        </button>
+      </mat-form-field>
+  </header>
+  <app-navbar></app-navbar>
+  <section class="hero">
+    <!-- <div class="hero-content">
+      <h2>Welcome to our website</h2>
+      <p>This is a simple and responsive home page.</p>
+      <a href="#" class="btn">Learn More</a>
+    </div> -->
+    <router-outlet></router-outlet>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Harshbardhan Behera. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
