@@ -1,27 +1,57 @@
-# GithubProfileViewer
+# GitHub Profile Viewer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+GitHub Profile Viewer is a web application that provides public repositories based on a given GitHub username. It is built using Angular and utilizes Bootstrap and Angular Material for styling. The application is deployed on Netlify.
 
-## Development server
+## Usage
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To use the GitHub Profile Viewer, simply visit the deployed link and enter a GitHub username into the provided input field. Press the "Search" button, and the application will retrieve and display the public repositories associated with that username.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- Bootstrap
+- Angular Material
 
-## Build
+## Deployment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The GitHub Profile Viewer is deployed on Netlify. You can access it using the following link:
 
-## Running unit tests
+[GitHub Profile Viewer](https://harsh-github-profile-viewer.netlify.app/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+If you want to run the application locally or contribute to the project, follow these steps:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone this repository:
 
-## Further help
+git clone https://github.com/HarshBehera/github-profile-viewer.git
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+2. Navigate to the project directory:
+
+cd github-profile-viewer
+
+3. Install dependencies:
+
+npm install
+
+4. Run the application:
+
+ng serve
+
+
+5. Open your web browser and visit http://localhost:4200
+
+## Contributing
+
+If you would like to contribute to the GitHub Profile Viewer, please follow these guidelines:
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/my-feature`.
+3. Commit your changes: `git commit -am 'Add some feature'`.
+4. Push to the branch: `git push origin feature/my-feature`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [Harshbardhan Behera](LICENSE).
